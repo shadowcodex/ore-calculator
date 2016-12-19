@@ -1,0 +1,18 @@
+.invert-row{
+    background-color:#222;
+    color:#f1f1f1;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.invert-table th{
+    color: #fecf71;
+}
+
+.invert-table td{
+    color: #f1f1f1;
+}
+
+.ore-price{
+    color:#fecf71;
+}

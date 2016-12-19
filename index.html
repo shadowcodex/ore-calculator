@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css">
+        
+    </head>
+    <body>
+        <center><h1>Valindil89's Ore Calculator</h1></center>
+        <center><small><p>Uses Buy Order Prices</p></small></center>
+        <br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    Select Region: <select id="regions" class="form-control"></select>
+                    <br>
+                    Set Ore Hold Amount: (m3) - (Mining Ship Ore Hold)<input id="oreHold" class="form-control" value="15000">
+                </div>
+                <div Class="col-md-6">
+                    <br>
+                    <div id="refresh" class="btn btn-lg btn-block btn-success">Refresh Data</div>
+                </div>
+            </div>
+            <br>
+            <div class="row invert-row">
+                <div class="col-md-12">
+                    <table id="oreTable" class="table table-bordered table-condensed invert-table">
+                        <thead>
+                            <tr>
+                                <th>Ore</th>
+                                <th>Batch</th>
+                                <th>Vol.</th>
+                                <th>Tri</th>
+                                <th>Pye</th>
+                                <th>Mex</th>
+                                <th>Iso</th>
+                                <th>Noc</th>
+                                <th>Zyd</th>
+                                <th>Meg</th>
+                                <th>Mor</th>
+                                <th>Ore V</th>
+                                <th>Batch V</th>
+                                <th>Ore Hold V</th>
+                                <th>Min Batch V</th>
+                                <th>Min Hold V</th>
+                            </tr>    
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="/data.js"></script>
+        <script src="/app.js"></script>
+    </body>
+</html>
