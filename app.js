@@ -106,7 +106,7 @@ var region = $('#regions').val();
 // updateOre();
 
 var updateItems = function(){
-    $.getJSON("http://api.eve-central.com/api/marketstat/json?typeid=" + itemString + "&regionlimit=" + region, function(data){
+    $.getJSON("https://api.eve-central.com/api/marketstat/json?typeid=" + itemString + "&regionlimit=" + region, function(data){
        $('#itemTable tbody').remove();
        $('#itemTable').append('<tbody></tbody>');
        $.each(data, function(i,v){
