@@ -6,15 +6,15 @@
         
     </head>
     <body>
-        <center><h1>Valindil89's Ore Calculator</h1></center>
-        <center><small><p>Uses Buy Order Prices</p></small></center>
+        <center><h1>Valindil89's Ore Calculator Price Generator</h1></center>
+        <center><small><p>For use with: <a href="https://docs.google.com/spreadsheets/d/1AMne_c7hz5JHWh56Q1ciQhq5ejQWe0aink2YhiltlHI/copy">This SpreadSheet</a></p></small></center>
         <br><br><br>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     Select Region: <select id="regions" class="form-control"></select>
                     <br>
-                    Set Ore Hold Amount: (m3) - (Mining Ship Ore Hold)<input id="oreHold" class="form-control" value="15000">
+                    <!--Set Ore Hold Amount: (m3) - (Mining Ship Ore Hold)<input id="oreHold" class="form-control" value="15000">-->
                 </div>
                 <div Class="col-md-6">
                     <br>
@@ -22,28 +22,45 @@
                 </div>
             </div>
             <br>
-            <div class="row invert-row">
-                <div class="col-md-12">
-                    <table id="oreTable" class="table table-bordered table-condensed invert-table">
+            <!--<div class="row invert-row">-->
+            <!--    <div class="col-md-12">-->
+            <!--        <table id="oreTable" class="table table-bordered table-condensed invert-table">-->
+            <!--            <thead>-->
+            <!--                <tr>-->
+            <!--                    <th>Ore</th>-->
+            <!--                    <th>Batch</th>-->
+            <!--                    <th>Vol.</th>-->
+            <!--                    <th>Tri</th>-->
+            <!--                    <th>Pye</th>-->
+            <!--                    <th>Mex</th>-->
+            <!--                    <th>Iso</th>-->
+            <!--                    <th>Noc</th>-->
+            <!--                    <th>Zyd</th>-->
+            <!--                    <th>Meg</th>-->
+            <!--                    <th>Mor</th>-->
+            <!--                    <th>Ore V</th>-->
+            <!--                    <th>Batch V</th>-->
+            <!--                    <th>Ore Hold V</th>-->
+            <!--                    <th>Min Batch V</th>-->
+            <!--                    <th>Min Hold V</th>-->
+            <!--                </tr>    -->
+            <!--            </thead>-->
+            <!--            <tbody>-->
+                            
+            <!--            </tbody>-->
+            <!--        </table>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <table id="itemTable" class="table table-bordered table-condensed">
                         <thead>
                             <tr>
-                                <th>Ore</th>
-                                <th>Batch</th>
-                                <th>Vol.</th>
-                                <th>Tri</th>
-                                <th>Pye</th>
-                                <th>Mex</th>
-                                <th>Iso</th>
-                                <th>Noc</th>
-                                <th>Zyd</th>
-                                <th>Meg</th>
-                                <th>Mor</th>
-                                <th>Ore V</th>
-                                <th>Batch V</th>
-                                <th>Ore Hold V</th>
-                                <th>Min Batch V</th>
-                                <th>Min Hold V</th>
-                            </tr>    
+                                <th>Item Type ID</th>
+                                <th>Sell Price</th>
+                                <th>Buy Price</th>
+                            </tr>
                         </thead>
                         <tbody>
                             
